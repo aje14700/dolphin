@@ -12,6 +12,7 @@ struct GCPadStatus;
 
 namespace GCAdapter
 {
+static constexpr int TIMEOUT = 500;
 enum ControllerTypes
 {
   CONTROLLER_NONE = 0,
